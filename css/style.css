@@ -1,0 +1,311 @@
+/*公共部分*/
+.container{
+	width: 12rem;
+	margin: 0 auto;
+}
+/*第一页*/
+#content1{
+	position: absolute;
+	height: 4.72rem;
+	top: 50%;
+	margin-top: -2.36rem;
+}
+.page1{
+    width: 100%;
+    background: url(../img/p1-bg.png);
+    background-size: 100% 100%;
+}
+#page1-logo{
+	width: 4rem;
+	height: 0.3rem;
+	line-height: 0.3rem;
+	position: relative;
+	top: 0.19rem;
+	left: 0.14rem;
+	color: white;
+	font-size: 0.3rem;
+	font-family: '宋体';
+}
+#page1-logo span{
+	display: inline-block;
+	width: 0.3rem;
+	height: 0.3rem;
+	padding-right: 0.11rem;
+	vertical-align: calc(-0.04rem);
+}
+#page1-logo span img{
+	display: block;
+    width: 0.3rem;
+	height: auto;
+}
+#page1-tx-1{
+	position: relative;
+	margin: 0 0 0 0.33rem;
+	font-size: 0.24rem;
+	color: white;
+}
+#page1-tx-2{
+	position: relative;
+	margin: 0 0 0 0.33rem;
+	font-size: 0.5rem;
+	color: white;
+}
+#logIn{
+	margin: -0.2rem 0 0 0.33rem;
+}
+#logIn div{
+	margin-bottom: 0.32rem;
+}
+#logIn input{
+	width: 4.6rem;
+	height: 0.5rem;
+	background-color: white;
+	font-size: 0.18rem;
+	padding-left: 0.3rem;
+	border-radius: 0.04rem;
+	box-sizing: border-box;
+}
+#rem{
+	color: white;
+	font-size: 0.18rem;
+	margin: 0.3rem 0 0 0.33rem;
+}
+#rem span{
+	display: inline-block;
+	width: 0.2rem;
+	height: 0.2rem;
+	margin-right: 0.1rem;
+	background: url(../img/page1-rem.png) no-repeat;
+	vertical-align: calc(-0.04rem);
+}
+#rem span img{
+	display: block;
+	width: 0.2rem;
+	height: auto;
+}
+#signUp{
+	width: 4.6rem;
+	height: 0.5rem;
+	line-height: 0.5rem;
+	margin: 0.3rem 0 0 0.33rem;
+	background-color: #0981E6;
+	border-radius: 0.04rem;
+	font-size: 0.18rem;
+	color: white;
+	border: none;
+}
+/*第一页结束*/
+/*第二页开始*/
+.page2-bg{
+	position: absolute;
+	width: 100%;
+	height: 2rem;
+	margin-top: -1rem;
+	top: 50%;/*mark*/
+}
+#page2-tx{
+	position: absolute;
+	top: 5%;
+	right: 10%;
+	text-align: right;
+	font-family: myFont;
+}
+#page2-tx-1{
+	font-size: 0.9rem;
+}
+#page2-tx-2{
+	font-size: 0.2rem;
+	text-align: right;
+}
+#content2{
+	position: absolute;
+	width: 60%;
+	height: 20%;
+	left: 50%;
+	top: 50%;
+	margin-left: -25%;
+	margin-top: -10%;
+}
+#content2 img{
+	display: block;
+	width: 100%;
+	height: auto;
+}
+#page2-pic-1{
+	width: 50%;
+}
+#page2-pic-2{
+	width: 50%;
+	padding-top: 20%;
+	margin-left: -10%;
+}
+/*第二页结束*/
+/*第三页*/
+#page3-tx{
+	position: absolute;
+	top: 3%;
+	left: 10%;
+	font-family: myFont;
+}
+#page3-tx-1{
+	font-size: 0.9rem;
+}
+#page3-tx-2{
+	font-size: 0.2rem;
+}
+.page3-item{
+	width: 33%;
+	float: left;
+	font-size: 0.46rem;
+	text-align: center;
+	padding: 0 0.5rem;
+	box-sizing: border-box;
+}
+.page3-item img{
+	display: block;
+	width: 100%;
+	height: auto;
+	margin-bottom: 0.25rem;
+}
+#content3{
+	width: 90%;
+	position: absolute;
+	top: 63%;
+	left: 50%;
+	margin: 0 0 0 -45%;
+}
+/*第三页结束*/
+/*第四页*/
+#page4-tx{
+	position: absolute;
+	top: 2%;
+	right: 10%;
+	font-family: myFont;
+}
+#page4-tx-1{
+	font-size: 0.9rem;
+	text-align: right;
+}
+#page4-tx-2{
+	font-size: 0.2rem;
+	text-align: right;
+}
+#content4{
+	position: absolute;
+	top: 60%;
+	left: 50%;
+	width: 64%;
+	height: auto;
+	margin-left: -27%;
+}
+#content4 img{
+	float: left;
+}
+#page4-pic-1{
+	width: 60%;
+}
+#page4-pic-2{
+	width: 40%;
+	padding-top: 18%;
+	margin-left: -10%;
+}
+/*第四页结束*/
+/*第五页*/
+#content5{
+	position: absolute;
+	width: 70%;
+	left: 50%;
+	top: 50%;
+	margin-left: -35%;
+}
+#page5-tx{
+	width:50%;
+	font-family: myFont;
+}
+#page5-tx-1{
+	font-size: 0.9rem;
+}
+#page5-tx-2{
+	font-size: 0.46rem;
+}
+#page5-tx-3{
+	font-size: 0.2rem;
+}
+#page5-pic{
+	width: 50%;
+}
+#page5-pic img{
+	display: block;
+	width: 100%;
+	height: auto;
+}
+/*第五页结束*/
+/*响应式调整*/
+@media only screen and (max-width: 960px) {
+	/*调整第一页背景图片*/
+	.page1{
+		background-size: cover;
+	}
+}
+@media only screen and (max-width: 768px) {
+	/*第二页*/
+	#page2-tx{
+		top:15%
+	}
+	#page2-tx-1{
+		font-size: 0.8rem;
+	}
+	#page3-tx-2{
+		font-size: 12px;
+	}
+	#content2{
+		width: 86%;
+		margin-left: -38%;
+	}
+	/*第三页*/
+	#page3-tx{
+		top: 15%;
+	}
+	#page3-tx-1{
+		font-size: 0.8rem;
+	}
+	#page3-tx-2{
+		font-size: 12px;
+	}
+	.page3-item{
+		font-size: 0.3rem;
+		width: 33%;
+		padding: 0 0.2rem;
+	}
+	#content3{
+		width: 100%;
+		margin-left: -50%;
+		top: 53%;
+	}
+	/*第四页*/
+	#page4-tx{
+		top: 20%;
+		right: 7%;
+	}
+	#page4-tx-1{
+		font-size: 0.5rem;
+	}
+	#content4{
+		width: 98%;
+		margin-left: -44%;
+	}
+	/*第五页*/
+	#page5-tx-1{
+		font-size: 0.41rem;
+		margin-bottom: 0.2rem;
+	}
+	#page5-tx-2{
+		font-size: 0.3rem;
+		margin-bottom: 0.2rem;
+	}
+	#content5{
+		width: 90%;
+		margin-left: -45%;
+	}
+}
+/*调整结束*/
